@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="gamepoint" defaultIdMethod="native">
+  <table name="user" phpName="User">
+    <!-- column and foreign key definitions go here -->
+    <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+    <column name="username" type="varchar" size="255" required="true" />
+    <column name="password" type="varchar" size="64" required="true"/>
+    <column name="salt" type="varchar" size="64" required="true"/>
+    <unique name="uniqueUser">
+        <unique-column name="username" />
+    </unique>
+  </table>
+</database>

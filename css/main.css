@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    
+}
+
+#userBox {
+    margin: auto;
+    width: 300px;
+    padding: 5px;
+    border:2px solid;
+    border-radius:25px;
+}
+
+#userBox h1 {
+    text-align: center;
+}
+
+
+#loginBox {
+    text-align: center;
+}
+
+#loginBox input {
+    width: 150px;
+}
+
+#errUsername {
+    display: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+
+#errPassword {
+    display: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+
+#message {
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+    display: none;
+}
+
+.errorBox {
+    background-color: #ff0000;
+}
+
+.successBox {
+    background-color: #00ff00;
+}
